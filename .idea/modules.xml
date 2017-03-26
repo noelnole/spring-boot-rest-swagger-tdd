@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-rest-api-tdd.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-rest-api-tdd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-rest-api-tdd_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-rest-api-tdd_integrationTest.iml" group="spring-boot-rest-api-tdd" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-rest-api-tdd_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-rest-api-tdd_main.iml" group="spring-boot-rest-api-tdd" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-rest-api-tdd_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-rest-api-tdd_test.iml" group="spring-boot-rest-api-tdd" />
+    </modules>
+  </component>
+</project>

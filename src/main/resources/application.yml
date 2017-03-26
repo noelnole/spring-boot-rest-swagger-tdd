@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/api?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: sasa
+
+  jpa:
+    hibernate:
+      #ddl-auto: update
+      ddl-auto: create #resetea
+
+#Nivel de debugs
+logging:
+  level:
+    java.net.*: DEBUG
+    com.sun.*: DEBUG
+    org.springframework.security.web.*: DEBUG
+    org.springframework.web: DEBUG
+    org.hibernate: DEBUG
+    root: DEBUG
+    api.*:

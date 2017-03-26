@@ -1,0 +1,56 @@
+= Accounts
+
+[[Intro]]
+== Intro
+This project was born with the aim of providing a sample microservice application with TDD.
+
+ * This microservice will store client accounts in a mysql DB and have
+ swagger as API Interface.
+
+== API overview
+* POST invocation (body example) to /accounts:
+[source,json]
+----
+{
+    "accountId": "010340430A",
+    "alias": "yourself",
+    "amount": 123,
+    "number": "pepe",
+    "currency":"CAD",
+    "type":"outgoings"
+  }
+----
+* GET invocation ( Response body example) to /accounts/010340430A:
+[source,json]
+----
+{
+    "accountId": "010340430A",
+    "alias": "yourself",
+    "amount": 123,
+    "number": "pepe",
+    "currency":"CAD",
+    "type":"outgoings"
+  }
+----
+
+
+
+== Motivation
+**Account** application is intended to demonstrate the basics concepts of a microservices architecture.
+
+== Build this microservice
+Build project
+----
+gradle clean install
+----
+
+== Run on local environment
+
+----
+gradle bootRun
+----
+
+----
+java -jar account.jar
+----
+

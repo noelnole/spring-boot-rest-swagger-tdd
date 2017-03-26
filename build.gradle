@@ -1,0 +1,42 @@
+buildscript {
+    ext {
+        springSnapshotRepo = 'https://repo.spring.io/snapshot'
+        springMilestoneRepo = 'https://repo.spring.io/milestone'
+    }
+
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.2.RELEASE")
+
+    }
+
+    repositories {
+        jcenter()
+
+        maven {
+            url springSnapshotRepo
+        }
+
+        maven {
+            url springMilestoneRepo
+        }
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+
+group = 'com.sample'
+archivesBaseName = 'spring-boot-rest-api-tdd'
+version = '1.0'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+apply from: "$projectDir/gradle/dependencies.gradle"
+apply from: "$projectDir/gradle/test.gradle"
+apply from: "$projectDir/gradle/integrationTest.gradle"
+apply from: "$projectDir/gradle/flyway.gradle"
