@@ -6,6 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-rest-api-tdd_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-rest-api-tdd_integrationTest.iml" group="spring-boot-rest-api-tdd" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-rest-api-tdd_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-rest-api-tdd_main.iml" group="spring-boot-rest-api-tdd" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-rest-api-tdd_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-rest-api-tdd_test.iml" group="spring-boot-rest-api-tdd" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-rest-swagger-tdd.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-rest-swagger-tdd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-rest-swagger-tdd_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-rest-swagger-tdd_integrationTest.iml" group="spring-boot-rest-swagger-tdd" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-rest-swagger-tdd_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-rest-swagger-tdd_main.iml" group="spring-boot-rest-swagger-tdd" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-rest-swagger-tdd_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-rest-swagger-tdd_test.iml" group="spring-boot-rest-swagger-tdd" />
     </modules>
   </component>
 </project>

@@ -39,4 +39,3 @@ repositories {
 apply from: "$projectDir/gradle/dependencies.gradle"
 apply from: "$projectDir/gradle/test.gradle"
 apply from: "$projectDir/gradle/integrationTest.gradle"
-apply from: "$projectDir/gradle/flyway.gradle"

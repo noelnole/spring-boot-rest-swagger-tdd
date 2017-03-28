@@ -8,6 +8,9 @@
       <module name="spring-boot-rest-api-tdd_integrationTest" target="1.8" />
       <module name="spring-boot-rest-api-tdd_main" target="1.8" />
       <module name="spring-boot-rest-api-tdd_test" target="1.8" />
+      <module name="spring-boot-rest-swagger-tdd_integrationTest" target="1.8" />
+      <module name="spring-boot-rest-swagger-tdd_main" target="1.8" />
+      <module name="spring-boot-rest-swagger-tdd_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
